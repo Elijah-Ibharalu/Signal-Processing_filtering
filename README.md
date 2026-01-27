@@ -1,120 +1,90 @@
-# 👋 Elijah Ibharalu
+# Simulink Projects Portfolio
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Role-R%26D%20Officer-blue" />
-  <img src="https://img.shields.io/badge/Focus-Model--Based%20Design-success" />
-  <img src="https://img.shields.io/badge/Field-Signal%20Processing-orange" />
-  <img src="https://img.shields.io/badge/Tools-MATLAB%20%7C%20Simulink-yellow" />
-</p>
-
-<p align="center">
-  <em>
-    Research & Development Officer · Model-Based Design Engineer · Physicist
-  </em>
-</p>
+A curated collection of **Model-Based Design**, **Signal Processing**, and **Communication Systems** projects developed in **MATLAB/Simulink**.  
+This repository serves as a central workspace for exploring, validating, and documenting engineering concepts through simulation-driven design.
 
 ---
 
-## 🧠 About Me
+## 👤 About Me
 
-I am a **Research & Development Officer** with a background in **Physics**, **Signal Processing**, and **Communication Systems**.  
-My work focuses on **model-based design**, where system requirements are translated into **verifiable, simulation-driven logic models**, particularly for **safety-critical and signal-driven systems**.
+**Elijah Ibharalu**  
+R&D Officer | Signal Processing & Model-Based Design Engineer  
 
-I currently work at **Proforce Intelligence Systems**, contributing to analytical modelling and engineering validation using **MATLAB/Simulink**.
-
----
-
-## 🔧 Technical Focus
-
-- Signal processing and detection systems  
-- Model-Based Design (MATLAB / Simulink)  
-- Communication systems (ADS-B, radar, RF systems)  
-- Logic design for safety-critical decision systems  
-- Timing, synchronisation, and validation logic  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elijah%20Ibharalu-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elijah-ibharalu)
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🧰 Tools & Domains
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" />
-</p>
-
-- **MATLAB / Simulink** (primary)
-- Digital Signal Processing fundamentals
-- RF & communication system analysis
-- Model-based system architecture
-- Technical documentation & engineering reporting
+- MATLAB / Simulink  
+- DSP System Toolbox  
+- Model-Based Design (MBD)  
+- FIR / IIR Filtering  
+- Multichannel Signal Processing  
+- Time & Frequency Domain Analysis  
+- Communications & RF System Modelling  
 
 ---
 
-## 📌 Featured Project
+## 📂 Project Index
 
-### 🔹 Dual-Authorisation Command Logic (Simulink)
+| Project | Domain | Description |
+|------|------|------|
+| 🔊 Multichannel FIR Filtering Testbed | DSP | Parallel FIR filtering of independent audio channels |
+| 📡 *(Upcoming)* ADS-B Receiver Modelling | Communications | Physical layer modelling of ADS-B signal reception |
+| 📶 *(Upcoming)* SDR Signal Chain Experiments | RF / DSP | Baseband processing and channel impairments |
+| 🛰 *(Upcoming)* Command & Control Logic Models | Aerospace | Fault-tolerant command validation architectures |
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/assets/logic-diagram.png" width="600"/>
-</p>
-
-A **logic-layer Simulink model** that:
-
-- Converts multiple pulse inputs into Boolean states  
-- Detects concurrent authorisation between independent inputs  
-- Supports independent override logic  
-- Outputs a deterministic Boolean decision signal  
-
-**Representative use case:**  
-Eliminating single-point failure in **distributed command authorisation systems**, such as safety-critical or aerospace command validation logic.
-
-> ⚠️ **Scope note:**  
-> This repository contains a **conceptual and analytical logic model only**.  
-> It is **not** flight-qualified software, cryptographic authentication, or a deployed command system.
+> Click a project below to view detailed models, diagrams, and explanations.
 
 ---
 
-## 🌍 Research & Community Involvement
+## 🔊 Multichannel FIR Filtering Testbed
+📁 **Directory:** [`multichannel-fir-filtering`](./multichannel-fir-filtering)
 
-- 🛰️ **NASA Exoplanet Watch Community**  
-  Signal normalisation and photometric analysis for detecting small exoplanet transit dips.
+### Overview
+A Simulink-based testbed developed to investigate **parallel FIR filtering** across multiple independent signal channels using a **single multichannel architecture**.
 
-- 🌌 **Pan-African Citizen Science e-Lab (PACS e-Lab)**  
-  Collaborative astronomy and data analysis initiatives.
+### Key Features
+- Accepts **real audio** and **synthetic test signals**
+- Independent channels grouped as a **multichannel signal**
+- Symmetric **4-tap FIR low-pass filter**
+- Time-domain and frequency-domain visualisation
+- Selective playback of individual processed channels
 
----
+### Engineering Objective
+To validate that identical FIR operations can be applied **consistently and efficiently** across parallel signal paths using vectorised multichannel processing in Simulink.
 
-## 🎓 Education
-
-**BSc Physics (Second Class Upper)**  
-University of Benin, Nigeria  
-
-- Strong grounding in electronics and signal processing  
-- Undergraduate research on **mechanical strain and piezoresistivity of carbon nanotubes**
-
----
-
-## 📫 Connect
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-Elijah%20Ibharalu-blue?logo=linkedin">
-  </a>
-</p>
+➡️ **[View Project](./multichannel-fir-filtering)**
 
 ---
 
-## 🔒 Disclaimer
+## 📐 Modelling Philosophy
 
-All repositories in this profile are intended for **research, modelling, and educational purposes only**.
+All projects in this repository follow a disciplined structure:
 
-They do **not** represent:
-- Deployed systems  
-- Classified implementations  
-- Proprietary or export-controlled designs  
+1. Clearly defined **inputs and outputs**
+2. Explicit **signal flow and assumptions**
+3. Time–frequency validation where applicable
+4. Emphasis on **clarity, scalability, and reusability**
+
+This mirrors real-world **defence, aerospace, and communications** development workflows.
 
 ---
 
-<p align="center">
-  <em>Model-driven thinking. Verifiable logic. Engineering clarity.</em>
-</p>
+## 🚀 Roadmap
+
+- Expand DSP testbeds (filter banks, multirate systems)
+- Communications receivers and synchronisation models
+- Fault-tolerant logic and validation architectures
+- Hardware-aware modelling for SDR deployment
+
+---
+
+## 📬 Contact
+
+For collaboration, technical discussion, or research opportunities:
+
+🔗 **LinkedIn:**  
+https://www.linkedin.com/in/elijah-ibharalu
+
