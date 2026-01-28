@@ -1,46 +1,9 @@
 # Simulink Projects Portfolio
 
-A curated collection of **Model-Based Design**, **Signal Processing**, and **Communication Systems** projects developed in **MATLAB/Simulink**.  
+A curated collection of **Model-Based Design**, **Signal Processing**, projects developed in **MATLAB/Simulink**.  
 This repository serves as a central workspace for exploring, validating, and documenting engineering concepts through simulation-driven design.
 
 ---
-
-## 👤 About Me
-
-**Elijah Ibharalu**  
-R&D Officer | Signal Processing & Model-Based Design Engineer  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Elijah%20Ibharalu-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elijah-ibharalu)
-
----
-
-## 🧰 Tools & Domains
-
-- MATLAB / Simulink  
-- DSP System Toolbox  
-- Model-Based Design (MBD)  
-- FIR / IIR Filtering  
-- Multichannel Signal Processing  
-- Time & Frequency Domain Analysis  
-- Communications & RF System Modelling  
-
----
-
-## 📂 Project Index
-
-| Project | Domain | Description |
-|------|------|------|
-| 🔊 Multichannel FIR Filtering Testbed | DSP | Parallel FIR filtering of independent audio channels |
-| 📡 *(Upcoming)* ADS-B Receiver Modelling | Communications | Physical layer modelling of ADS-B signal reception |
-| 📶 *(Upcoming)* SDR Signal Chain Experiments | RF / DSP | Baseband processing and channel impairments |
-| 🛰 *(Upcoming)* Command & Control Logic Models | Aerospace | Fault-tolerant command validation architectures |
-
-> Click a project below to view detailed models, diagrams, and explanations.
-
----
-
-## 🔊 Multichannel FIR Filtering Testbed
-📁 **Directory:** [`multichannel-fir-filtering`](./multichannel-fir-filtering)
 
 ### Overview
 A Simulink-based testbed developed to investigate **parallel FIR filtering** across multiple independent signal channels using a **single multichannel architecture**.
