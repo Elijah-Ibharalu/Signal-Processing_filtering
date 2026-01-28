@@ -1,6 +1,7 @@
 
 ### Overview
 A Simulink-based testbed developed to investigate **parallel FIR filtering** across multiple independent signal channels using a **single multichannel architecture**.
+**Matlab-Simulink will be required to open this file.
 
 ### Key Features
 - Accepts **real audio** and **synthetic test signals**
